@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: health-records-service
-        image: health-recommendation-service:latest
+        image: health-records-service:latest
         ports:
         - containerPort: 3000
 ---
